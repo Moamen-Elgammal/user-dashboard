@@ -1,0 +1,184 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  text-align: center;
+  color: #202223;
+  margin: 15px;
+}
+.auth {
+  width: 95%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth h1 {
+  text-align: center;
+  color: #202223;
+  margin: 15px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 12px;
+  margin-bottom: 1rem;
+  width: 95%;
+}
+
+.control label {
+  display: block;
+  color: #202223;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.control input {
+  font: inherit;
+  color: #202223;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #a7acb1;
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+  width: 45%;
+  margin: 1.5rem;
+  border: none;
+}
+
+/* .actions button:hover {
+  background-color: #ae82cc;
+  border-color: white;
+  color: #38015c;
+} */
+.actions .submit {
+  background-color: #008060;
+  color: #fff;
+}
+
+.actions .submit:hover {
+  background-color: #00a77d;
+  color: #ffffff;
+}
+
+.actions .discard {
+  background-color: #202123;
+  color: #fff;
+}
+
+.actions .discard:hover {
+  background-color: darkred;
+  color: #fff;
+}
+
+/* .box {
+    margin: 3rem auto;
+    width: 95%;
+    max-width: 40rem;
+    border-radius: 6px;
+    background: #44a08d; 
+    background: linear-gradient(
+      to right,
+      #093637,
+      #44a08d
+    ); 
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .box h1 {
+    text-align: center;
+    color: white;
+    margin: 15px;
+    font-size: 2rem;
+  }
+  
+  .box p {
+    text-align: center;
+    color: white;
+    margin: 25px;
+    font-weight: bold;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .control div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .control label {
+    display: block;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+  }
+  
+  .control input {
+    font: inherit;
+    background-color: #f1e1fc;
+    color: gray;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 80%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: steelblue;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+  } */

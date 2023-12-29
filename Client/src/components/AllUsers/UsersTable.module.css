@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  width: auto;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7);
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+td {
+  padding: 20px 35px;
+  text-align: left;
+}
+th {
+  padding: 20px 35px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #f6f6f7;
+  background-color: #202223;
+  border-color: #32383e;
+}
+tr {
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  background-color: #fafafa;
+  letter-spacing: 1px;
+}
+tr:hover {
+  background-color: #e5e5e5;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 23px;
+}
+
+.primary {
+  color: steelblue;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+}
+.danger {
+  color: darkred;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+}
