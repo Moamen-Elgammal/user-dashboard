@@ -19,10 +19,6 @@ The User Dashboard is a full-stack MERN (MongoDB, Express.js, React.js, Node.js)
   - Visualization of user data in a user-friendly interface.
   - User data is stored and retrieved from MongoDB, ensuring a reliable and scalable solution.
 
-- **Responsive Design:**
-  - The user dashboard features a responsive design, making it accessible and functional across various devices and screen sizes.
-
-
 ## Tech Stack
 
 - **Backend:**
@@ -31,7 +27,7 @@ The User Dashboard is a full-stack MERN (MongoDB, Express.js, React.js, Node.js)
 
 - **Frontend:**
   - React.js
-  - Redux for state management
+  - Context for state management
 
 - **Authentication:**
   - JWT (JSON Web Tokens)
@@ -41,4 +37,4 @@ The User Dashboard is a full-stack MERN (MongoDB, Express.js, React.js, Node.js)
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/user-dashboard.git
+   git clone https://github.com/Moamen-Elgammal/user-dashboard.git
